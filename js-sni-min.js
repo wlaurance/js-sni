@@ -1,3 +1,3 @@
-if (window.location.protocol !== "https:") {
-  window.location.replace("https://www.dubsoft.net.com");
+if (window.location.protocol === "http:") {
+  window.location.replace(window.location.href.replace('http', 'https'));
 }
